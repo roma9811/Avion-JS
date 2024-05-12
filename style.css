@@ -1,0 +1,461 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.firstHeader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEBEB;
+    width: auto;
+    height: 70px;
+    align-items: center;
+    margin: 0 28px 0 28px;
+    cursor: pointer;
+}
+.headerImage4{
+    margin-left: 16px;
+}
+ .headerNavi{
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+} 
+.menu {
+    display: flex;
+}
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #4A4666;
+    text-decoration: none;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+.dropdown-menu li a {
+    padding: 12px 20px;
+}
+.dropdown-menu a:hover{
+    background-color: #2A254B;
+    color: #fff;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    height: 650px;
+}
+.collectionBox{
+    background-color: #2A254B;
+    height: 584px;
+    width: 760px;
+    color: #ffff;
+    padding: 60px 0 0 60px;
+   
+}
+.collectionBox input{
+    margin: 41px 0 196px 0;
+    width: 170px;
+    height: 56px;
+    background-color: #494565;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+.collectionBox h1{
+    font-size: 32px
+}
+.collectionBox p{
+    font-size: 18px;
+}
+.collectionImage{
+   margin: 3px 0 0 -7px;
+}
+.main2{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #726E8D;
+}
+.main2 h1{
+    font-size: 30px;
+}
+.brand{
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+    width: 1280px;
+}
+.brand h3{
+    margin-bottom: 8px;
+}
+.main3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 761px;
+}
+.main3 h1{
+    font-size: 32px;
+    color: #726E8D;
+    width: 1280px;
+
+}
+.ceramicBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    gap: 20px;
+    width: 1280px;
+}
+.ceramicImage h3{
+    color: #726E8D;
+    margin-top: 20px;
+}
+.main3 button{
+    margin-top: 50px;
+    height: 56px;
+    width: 170px;
+    background-color: #F9F9F9;
+    border: none;
+    cursor: pointer;
+}
+.main4{
+    height: 744px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 740px;
+}
+.main4 h1{
+    font-size: 32px;
+    color: #726E8D;
+    width: 1280px;
+    margin-bottom: 20px;
+}
+.popProducts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+.popProducts  h3{
+    color: #726E8D;
+    margin-top: 20px;
+}
+.main4 button{
+    margin-top: 50px;
+    height: 56px;
+    width: 170px;
+    background-color: #F9F9F9;
+    border: none;
+    cursor: pointer;
+}
+.main5{
+    height: 481px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #726E8D;
+}
+.main5 h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.signUp{
+    height: 381px; 
+    background-color:#fff;
+    width: 1280px;
+    padding-top: 68px;
+   
+}
+.signInput{
+    margin-top: 72px;
+}
+.signInput input{
+    width: 354px;
+    height: 56px;
+    padding-left: 20px;
+    border: none;
+    background-color: #F9F9F9;
+    outline: none;
+}
+input::placeholder{
+    color:#D0CFD6;
+}
+.signInput button{
+    height: 56px;
+    width: 118px;
+    border: none;
+    background-color: #4E4D93;
+    color: #fff;
+    cursor: pointer;
+}
+.main6{
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #726E8D;
+    align-items: center;
+    gap: 90px;
+ 
+}
+.fromStudio button{
+    margin-top: 200px;
+    cursor: pointer;
+    height: 56px;
+    width: 150px;
+    background-color: #F9F9F9;
+    border: none;
+}
+.fromImage img{
+    height: 500px;
+}
+footer{
+    height: 380px;
+    background-color: #2A254B;
+}
+.footerBox{
+    display: flex;
+    justify-content: space-around;
+    color: #F9F9F9;
+    padding-top: 58px;
+}
+.ulList input{
+    width: 509px;
+    height: 56px;
+    padding-left: 20px;
+    border: none;
+    background-color: #4A4666;
+    outline: none;
+    margin-top: 15px;
+    color: #fff;
+}
+.ulList  button{
+    height: 56px;
+    width: 118px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.ulList li{
+    line-height: 30px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:#F9F9F9;
+    border-top: 1px solid #4E4D93 ;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 0) {
+    .generalContainer {
+        max-width: 100%; 
+        overflow-x: hidden; 
+    }
+     .firstHeader {
+        height: 69px;
+        display: flex;
+        justify-content:center;
+        border-bottom: none; 
+    }
+   
+    .headerNavi{
+       display: block;
+       position: absolute;
+       top: 25px;
+       left: 5px;
+    } 
+     .menu{
+        display: flex;
+        flex-direction: column;
+        height:100%;
+        width: 150px;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 15px;
+    } 
+    .menu li :hover{
+        background-color: #2A254B;
+        color: #fff;
+        border-radius: 15px;
+    }
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+    .burger-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: #000; 
+    }
+    .dropdown{
+        display: none;
+    }
+    .img1 {
+        display: none;
+    }
+
+    .main1 {
+        height: 470px;
+    }
+
+    .collectionBox {
+        background-color: #2a254b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+    .collectionBox p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .collectionBox h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .collectionImage img {
+        display: none;
+    }
+
+    .main2 {
+        height: 800px;
+        margin-top: 70px;
+    }
+
+    .brand {
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main2 h1 {
+        font-size: 20px;
+    }
+
+    .main3,
+    .main4,
+    .main6 {
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .main3,.main4 h1{
+        text-align: center;
+    }
+
+    .main3 .ceramicBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        width: 400px;
+    }
+    .main4 .popProducts {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .ceramicImage img,
+    .productsBox img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .popProducts img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .signUp h1 {
+        font-size: 25px;
+    }
+
+    .signInput input,
+    .ulList input {
+        width: auto;
+    }
+
+    .main6 {
+        margin-top: 80px;
+    }
+
+    .fromStudio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fromStudio h1 {
+        margin-bottom: 20px;
+    }
+
+    .fromImage img {
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+    }
+
+    footer {
+        height: 500px;
+        background-color: #2a254b;
+        margin-top: 50px;
+        padding-top: 40px;
+    }
+
+    .footerBox {
+        display: flex;
+        flex-wrap: wrap;
+ }
+
+} 
+
+
+
+
+
+
+
