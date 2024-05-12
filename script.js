@@ -13,8 +13,9 @@ let menuContainer = document.querySelector(".menu");
 burgerIcon.addEventListener("click", () => {
 menuContainer.style.display = (menuContainer.style.display === "block") ? "none" : "block";
 });
- 
-let shopItems = [{
+
+let shopItems = document.querySelector(".popProducts");
+  shopItems = [{
      chairs:'sofa',new:true,
      price: '£980',
      color: 'green',
@@ -32,4 +33,5 @@ let shopItems = [{
 ];
 shopItems.forEach((item)=>{
     console.log(item.chairs)
-})
+}) 
+ 
