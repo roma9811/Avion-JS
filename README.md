@@ -8,11 +8,10 @@ Includes product filtering, category navigation, and dynamic rendering — witho
 ##  Project Overview
 
 This project demonstrates:
-- Working with **pure JavaScript** (DOM, events, API)
+- Working with **pure JavaScript
 - Filtering products by category
-- Basic cart functionality (если реализовано)
+- Basic cart functionality
 - Clean, adaptive layout for different screen sizes
-- Partial backend/server interaction (e.g., product fetching)
 
 ---
 
@@ -32,6 +31,8 @@ This project demonstrates:
 - HTML5
 - CSS3 (with Flexbox/Grid)
 - JavaScript (no frameworks)
-- JSON (для хранения данных или взаимодействия с сервером)
-- (Optional) Node.js backend or local server
+- JSON 
+
 ---
+**Live Demo:**
+https://avion-js.vercel.app
